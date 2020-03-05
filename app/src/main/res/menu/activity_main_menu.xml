@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Genre" >
+        <menu >
+            <group android:checkableBehavior="none">
+                <item
+                    android:id="@+id/nav_action"
+                    android:icon="@drawable/ic_action"
+                    android:title="Action" />
+                <item
+                    android:id="@+id/nav_rpg"
+                    android:icon="@drawable/ic_rpg"
+                    android:title="RPG" />
+                <item
+                    android:id="@+id/nav_shooting"
+                    android:icon="@drawable/ic_shooting"
+                    android:title="Shooting" />
+                <item
+                    android:id="@+id/nav_racing"
+                    android:icon="@drawable/ic_racing"
+                    android:title="Racing" />
+                <item
+                    android:id="@+id/nav_survival"
+                    android:icon="@drawable/ic_survival"
+                    android:title="Survival" />
+                <item
+                    android:id="@+id/nav_puzzle"
+                    android:icon="@drawable/ic_puzzle"
+                    android:title="Puzzle" />
+            </group>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/nav_share"
+        android:icon="@drawable/ic_share"
+        android:title="Share" />
+</menu>
